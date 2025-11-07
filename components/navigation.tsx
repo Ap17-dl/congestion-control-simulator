@@ -13,8 +13,8 @@ export default function Navigation() {
     { href: "/", label: "Home" },
     { href: "/simulator", label: "Simulator" },
     { href: "/instructions", label: "Instructions" },
-    { href: "/algorithms", label: "Algorithms" },
-    { href: "/about", label: "About" },
+    { href: "/algorithms", label: "Learn" },
+    { href: "/about", label: "Developer" },
   ]
 
   const isActive = (href: string) => pathname === href
